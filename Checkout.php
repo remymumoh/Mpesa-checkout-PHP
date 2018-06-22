@@ -22,5 +22,7 @@
     <br>
     Pay via Mpesa:<br>
     <button type="submit" name="checkout">Checkout with Mpesa</button>
+
+    <p>NB:This sample uses a real paybill number it makes real transactions. Hence encouraged to test with the lowest amount 10/=</p>
 </body>
 </html>
