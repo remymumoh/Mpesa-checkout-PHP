@@ -24,7 +24,12 @@ $ENDPOINT, $PASSWORD,$TIMESTAMP)
      </soapenv:Body></soapenv:Envelope>';
 
 /// Your SOAP XML needs to be in this variable
+try{
 
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $ENDPOINT);
+    
+}
 }
 
 
