@@ -18,7 +18,7 @@
     <input type="text" name="amount" >
     <br>
     Phonenumber:<br>
-    <button type="text" name="number" placeholder="2547002000000">
+    <input type="text" name="number" placeholder="2547002000000">
     <br>
     Pay via Mpesa:<br>
     <button type="submit" name="checkout">Checkout with Mpesa</button>
